@@ -16,6 +16,8 @@ public class Main {
         System.out.println("6. Kelvin a Fahrenheit");
         System.out.println("Ingrese la opcion: ");
         int opcion = sc.nextInt();
+
+        // se utilizan opciones para convertir Temperatura acorde a la selección
         switch (opcion) {
             case 1:
                 System.out.println("Ingrese la temperatura en Celsius: ");
